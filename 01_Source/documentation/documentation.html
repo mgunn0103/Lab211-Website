@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Template Documentation "Magnetto Template"</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="main">
+        
+        <h1>“Magnetto Template” Documentation by “WebLionMedia” v1.0</h1>
+        
+        <div class="line"></div><!-- line end -->
+        
+        <h2>“Magnetto Template”</h2>
+        
+        <div class="line"></div><!-- line end -->
+        
+        	<div class="author">
+            	<p style="line-height:21px;">
+                	Created: 12 August 2013<br />
+                    By: Roman Polyarush<br />
+                    Email: <a href="mailto:webvisionss@gmail.com"><strong>webvisionss@gmail.com</strong></a>
+                </p>
+            </div><!-- author end -->
+            
+            <div class="description">
+            	<p style="line-height:21px;">
+                	Thank you for buying my theme. If you have any questions, please ask them via the contact form on <a target="_blank" href="http://themeforest.net/user/WebLionMedia"><strong>my page</strong></a> or send me a <a href="mailto:webvisionss@gmail.com" target="_blank"><strong>mail</strong></a>. Thank you!
+                </p>
+            </div><br clear="all" /><!-- description end -->
+        
+        <div class="line"></div><!-- line end --><br />
+        
+        <h3>Table of Contents</h3><br />
+        
+        <p>
+			<font color="#023e54">A:</font>&nbsp;&nbsp;<a href="#features">Features</a><br />
+        	<font color="#023e54">B:</font>&nbsp;&nbsp;<a href="#html">HTML Structure</a><br />
+            <font color="#023e54">C:</font>&nbsp;&nbsp;<a href="#js">JavaScript</a><br />
+            <font color="#023e54">D:</font>&nbsp;&nbsp;<a href="#psd">PSD Files</a><br />
+            <font color="#023e54">E:</font>&nbsp;&nbsp;<a href="#credits">Sources and Credits</a><br />
+            <!-- font color="#023e54">G:</font>&nbsp;&nbsp;<a href="#contact">Contact Form</a -->
+        </p><br />
+		
+		<div class="line"></div><!-- line end --><br />
+        
+        <h4 id="features">A) Features - <a href="#">top</a></h4><br />
+        
+        <p>
+			1. Valid html code<br />
+			2. Carefully handcrafted<br />
+			3. Awesome one page design<br />
+			4. Amazing main slider<br />
+			5. HTML5 and CSS3 techniques<br />
+			6. Responsive design<br />
+			7. Excellent block appearing effects<br />
+			8. Layered PSDs for customisation<br />
+			9. Page Templates (About Us, Services, Portfolio)<br />
+			10. Elemetns (Info Boxes, Columns, Tabs&amp;Toggle, Pricing Table)<br />
+			11. 2 cool portfolio styles<br />
+			12. Extensive documentation<br />
+			13. Excellent customer support
+        </p><br />
+        
+        <div class="line"></div><!-- line end --><br />
+        
+        <h4 id="html">B) HTML Structure - <a href="#">top</a></h4><br />
+        
+        <p>
+        	   <font color="#272727" style="margin:0 102px 0 0px;"><strong>1. Home</strong></font> (index.html, index_alt_portfolio.html)<br />
+               <font color="#272727" style="margin:0 110px 0 0px;"><strong>2. Blog</strong></font> (index.html, index_alt_portfolio.html, blog_post.html)<br />
+               <font color="#272727" style="margin:0 83px 0 0px;"><strong>3. About Us</strong></font> (index.html, index_alt_portfolio.html)<br />
+               <font color="#272727" style="margin:0 72px 0 0px;"><strong>4. Contact Us</strong></font>  (index.html, index_alt_portfolio.html)<br />
+               <font color="#272727" style="margin:0 68px 0 0px;"><strong>5. Shortcodes</strong></font>  (shortcodes.html)<br />
+               <font color="#272727" style="margin:0 42px 0 0px;"><strong>6. Portfolio Pages</strong></font>  (index.html, index_alt_portfolio.html)<br />
+        </p><br />
+        
+        <h5>Main menu</h5><br />
+        <p>
+        	   The Main menu is build from floated list elements and easily extendable.<br /><br />
+               
+               <b>Editing the Main menu</b><br />
+				U can easily edit the Main menu item by replacing or editing the text between the &lt;a&gt; element. Editing the navigation will extend the bar to the left, because they is positioned to the right.<br /><br />
+                
+                <b>Setting links</b><br />
+				The navigation between different page sections is simple. To set a link to the page edit the &lt;a href="<b>#section_id</b>"&gt;<b>Example</b>&lt;/a&gt;
+        </p><br />
+        
+        <h5>Header</h5><br />
+        <p>
+        	   The header is a block with main menu, logo and some useful blocks
+        </p><br />
+        
+        <h5>Content</h5><br />
+        <p>
+        	   The Content section contains the whole content with pictures, text and plugins. The heigth of the Content depends on the height of the content inside. For customization see detail on each pages.
+        </p><br />
+        
+        <h5>Footer</h5><br />
+        <p>
+        	   The footer is a block with a copyright and some useful blocks
+        </p><br />
+        
+        <h5>Main Slider (index.html, index_alt_portfolio.html)</h5><br />
+        <pre><i>&lt;div class="block_main_slider general_not_loaded"&gt;
+	&lt;div id="main_slider" class="flexslider"&gt;
+		&lt;ul class="slides"&gt;
+			&lt;li class="slide_1"&gt;
+				&lt;div class="caption_1"&gt;
+					&lt;div class="caption_1_1 animated_item" data-animation="bounceInDown"&gt;Welcome to Magnetto&lt;/div&gt;
+					&lt;div class="caption_1_2 animated_item" data-animation="fadeInUp"&gt;We are a team of young developers in love with the design. Every day we create amazing things and make this world more beautiful!&lt;/div&gt;
+					&lt;div class="caption_1_3 animated_item" data-animation="bounceInUp"&gt;&lt;a href="#" class="general_button type_3"&gt;View our works&lt;/a&gt;&lt;a href="#" class="general_button type_4"&gt;More about Us&lt;/a&gt;&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/li&gt;
+			
+			&lt;li class="slide_2"&gt;
+				&lt;div class="caption_2"&gt;
+					&lt;div class="caption_2_1"&gt;Santium make web design, technology &amp; strategy to help companies build awesome websites and applications&lt;/div&gt;
+					&lt;div class="caption_2_2 counter"&gt;
+						&lt;ul&gt;
+							&lt;li class="animated_item" data-animation="fadeInRight"&gt;
+								&lt;div class="num" data-num="8" data-content="8"&gt;0&lt;/div&gt;
+								&lt;div class="type"&gt;years in web&lt;/div&gt;
+							&lt;/li&gt;
+							
+							&lt;li class="animated_item" data-animation="fadeInRight"&gt;
+								&lt;div class="num" data-num="250" data-content="250"&gt;0&lt;/div&gt;
+								&lt;div class="type"&gt;projects maked&lt;/div&gt;
+							&lt;/li&gt;
+							
+							&lt;li class="animated_item" data-animation="fadeInRight"&gt;
+								&lt;div class="num" data-num="150" data-content="15K"&gt;0&lt;/div&gt;
+								&lt;div class="type"&gt;happy clients&lt;/div&gt;
+							&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/li&gt;
+			
+			&lt;li class="slide_3"&gt;
+				&lt;div class="caption_3"&gt;
+					&lt;div class="caption_3_1 animated_item" data-animation="zoomIn"&gt;&lt;img src="images/pic_slider_1_3.png" alt=""&gt;&lt;/div&gt;
+					&lt;div class="caption_3_2 animated_item" data-animation="fadeInUp"&gt;Magnetto - Premium WP Template&lt;/div&gt;
+					&lt;div class="caption_3_3 animated_item" data-animation="fadeInUp"&gt;Perfect theme for your business, a creative agency or a portfolio! The template is created in the minimalist “clean” style.&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	
+	&lt;script type="text/javascript"&gt;
+		jQuery(function() {
+			init_main_slider('#main_slider');
+		});
+	&lt;/script&gt;
+	
+	&lt;div class="lnk"&gt;
+		&lt;a href="#about" class="lnk_scroll"&gt;Who We Are?&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</i></pre><br />
+
+		<h5>Appearing block animation (index.html, index_alt_portfolio.html)</h5><br />
+		<p>
+        	   To add appearing animation to block u just need to set class as "<b>scroll_animated_item</b>" and "<b>data-scroll-animation</b>" attribute as:<br /><br />
+			   	flash<br />
+				shake<br />
+				bounce<br />
+				tada<br />
+				swing<br />
+				wobble<br />
+				pulse<br />
+				zoomIn<br />
+				fadeIn<br />
+				fadeInUp<br />
+				fadeInDown<br />
+				fadeInLeft<br />
+				fadeInRight<br />
+				fadeInUpBig<br />
+				fadeInDownBig<br />
+				fadeInLeftBig<br />
+				fadeInRightBig<br />
+				bounceIn<br />
+				bounceInUp<br />
+				bounceInDown<br />
+				bounceInLeft<br />
+				bounceInRight<br />
+				rotateIn<br />
+				rotateInUpLeft<br />
+				rotateInDownLeft<br />
+				rotateInUpRight<br />
+				rotateInDownRight<br />
+				hinge<br />
+				rollIn<br />
+        </p><br />
+        <br />
+        
+        <div class="line"></div><!-- line end --><br />
+        
+        <h4 id="js">C) JavaScript - <a href="#">top</a></h4><br />
+        
+        <p>
+            The theme makes use of various JavaScripts and the jQuery framework to add dynamic functionality. Some of the scripts used include:<br /><br />
+            
+            1. <a href="http://manos.malihu.gr/jquery-custom-content-scroller/" target="_blank">customscrollbar</a><br />
+            2. <a href="http://www.woothemes.com/flexslider/" target="_blank">flexslider</a><br />
+            3. <a href="http://entypo.com/" target="_blank">entypo</a><br />
+            4. <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target="_blank">prettyphoto</a><br />
+            5. <a href="http://flesler.blogspot.com/2007/10/jqueryscrollto.html" target="_blank">scrollto</a><br />
+            6. <a href="http://jquerytools.org/" target="_blank">jQuery Tools</a><br />
+			7. <a href="http://mediaelementjs.com/" target="_blank">mediaelement</a><br />
+            
+            If you would like to edit the javascript/jQuery code all js files are in folder "<b>layout/js</b>".
+
+        </p><br />
+        
+        <div class="line"></div><!-- line end --><br />
+        
+        <h4 id="psd">D) PSD Files - <a href="#">top</a></h4><br />
+        
+        <p>
+            I've included all PSDs with this themplate. In this PSDs you will find everything you need.<br />
+            The important things are labeled and stored in folders.
+
+        </p><br />
+        
+        <div class="line"></div><!-- line end --><br />
+        
+        <h4 id="credits">E) Sources and Credits - <a href="#">top</a></h4><br />
+        
+        <p>
+        	<font color="#272727">Fonts:</font><br />
+            
+			Arial (standard)<br />
+            Open Sans (non standard)<br /><br />
+            
+            All non standard fonts are from <a href="http://www.google.com/webfonts" target="_blank">Google Web Fonts</a><br /><br />
+            
+            <font color="#272727">Icons:</font><br />
+            
+            <a href="http://www.iconsweets2.com/" target="_blank">www.iconsweets2.com</a><br /><br />
+            
+            <font color="#272727">Images:</font><br />
+			
+            <a href="http://dribbble.com/maz_martin" target="_blank">http://dribbble.com/maz_martin</a><br />
+            <a href="http://dribbble.com/justinbarber" target="_blank">http://dribbble.com/justinbarber</a><br />
+            <a href="http://dribbble.com/shots/610883-The-Night-Owl" target="_blank">http://dribbble.com/shots/610883-The-Night-Owl</a><br />
+            <a href="http://dribbble.com/StudioNudge" target="_blank">http://dribbble.com/StudioNudge</a><br />
+            <a href="http://dribbble.com/GreenInkStudio" target="_blank">http://dribbble.com/GreenInkStudio</a><br />
+            <a href="http://dribbble.com/growcase" target="_blank">http://dribbble.com/growcase</a><br />
+            <a href="http://dribbble.com/designbydustin" target="_blank">http://dribbble.com/designbydustin</a><br />
+            <a href="http://dribbble.com/charlessantoso" target="_blank">http://dribbble.com/charlessantoso</a><br />
+            <a href="http://dribbble.com/Dash?page=7" target="_blank">http://dribbble.com/Dash?page=7</a><br />
+            <a href="http://dribbble.com/TheIssland?page=8" target="_blank">http://dribbble.com/TheIssland?page=8</a><br />
+            <a href="http://dribbble.com/AlexTass?page=12" target="_blank">http://dribbble.com/AlexTass?page=12</a><br />
+            <a href="http://dribbble.com/shots/406617-Prix-Stationary" target="_blank">http://dribbble.com/shots/406617-Prix-Stationary</a><br />
+            <a href="http://dribbble.com/Igor_Eezo?page=3" target="_blank">http://dribbble.com/Igor_Eezo?page=3</a><br />
+            <a href="http://dribbble.com/kulthouse" target="_blank">http://dribbble.com/kulthouse</a><br />
+            <a href="http://dribbble.com/dcalonaci?page=5" target="_blank">http://dribbble.com/dcalonaci?page=5</a><br />
+            <a href="http://dribbble.com/shots/487119-Kippt-Website" target="_blank">http://dribbble.com/shots/487119-Kippt-Website</a><br />
+
+        </p><br />
+        
+        <div class="line"></div><!-- line end --><br />
+        
+        <p>
+        	Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this template. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.
+        </p><br />
+        
+        <h3>WebLionMedia</h3><br />
+        
+    </div><!-- main end -->
+
+</body>
+</html>

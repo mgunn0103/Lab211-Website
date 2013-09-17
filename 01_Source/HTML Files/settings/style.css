@@ -1,0 +1,69 @@
+.block_settings_wrapper {
+	width:148px;
+	position:absolute;
+	left:-148px;
+	top:1100px;
+	
+	-ms-transition:left .4s;
+	-moz-transition:left .4s;
+	-webkit-transition:left .4s;
+	transition:left .4s;
+	
+	z-index:70;
+}
+
+.block_settings_wrapper section {}
+.block_settings_wrapper section a {
+	width:148px;
+	height:39px;
+	line-height:39px;
+	display:none;
+	
+	background-color:#1797cb;
+	
+	-ms-transition:background-color .2s;
+	-moz-transition:background-color .2s;
+	-webkit-transition:background-color .2s;
+	transition:background-color .2s;
+	
+	font-size:11px;
+	color:#ffffff;
+	font-weight:600;
+	text-transform:uppercase;
+	text-align:center;
+}
+.block_settings_wrapper section a:hover {background-color:#6f8790; text-decoration:none;}
+
+.page_standart .block_settings_wrapper section a.standart {display:block;}
+.page_alternative .block_settings_wrapper section a.alternative {display:block;}
+
+.block_settings_wrapper #settings_close {
+	width:39px;
+	height:39px;
+	display:block;
+	position:absolute;
+	right:-39px;
+	top:0px;
+	
+	background-repeat:no-repeat;
+	background-image:url(images/icon_panel.png);
+	background-color:#1f2528;
+	
+	-ms-transition:background-color .2s;
+	-moz-transition:background-color .2s;
+	-webkit-transition:background-color .2s;
+	transition:background-color .2s;
+	
+	-moz-border-radius:0px 2px 2px 0px;
+	-webkit-border-radius:0px 2px 2px 0px;
+	border-radius:0px 2px 2px 0px;
+	
+	text-indent:-9000px;
+}
+.block_settings_wrapper #settings_close:hover {background-color:#434343;}
+
+.opened_settings .block_settings_wrapper {left:0px;}
+
+@media (max-width:767px) {
+	.block_settings_wrapper {display:none;}
+}
