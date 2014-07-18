@@ -153,6 +153,7 @@ blockquote.type_2 .author {padding-top:6px; display:block; font-size:13px; color
 .general_social_1 a.social_4 {background-position:-60px 0px;}
 .general_social_1 a.social_5 {background-position:-80px 0px;}
 .general_social_1 a.social_6 {background-position:-100px 0px;}
+.general_social_1 a.social_7 {background-position:-120px 0px;}
 
 .general_social_2 a {
 	width:33px;
@@ -280,14 +281,14 @@ header.scrolled .main_menu {padding-top:15px;}
 
 .block_main_slider {overflow:hidden; position:relative;}
 .block_main_slider .slides li {position:relative;}
-.block_main_slider .slide_1 {background:url(images/bg_slider_1_1.jpg) no-repeat; background-size:cover;}
+.block_main_slider .slide_1 {background:url(images/bg_slider_1_1.jpg) no-repeat center; background-size:cover;}
 .block_main_slider .slide_1 .animated_item {
 	-webkit-animation-duration: 1s;
 	-moz-animation-duration: 1s;
 	-ms-animation-duration: 1s;
 	animation-duration: 1s;
 }
-.block_main_slider .slide_2 {background-color:#363f48;}
+.block_main_slider .slide_2 {background:url(images/bg_slider_1_2.jpg) no-repeat center; background-size:cover;}
 .block_main_slider .slide_3 {background:url(images/bg_slider_1_3.jpg) no-repeat; background-size:cover;}
 .block_main_slider .slide_3 .animated_item {
 	-webkit-animation-duration: 0.75s;
@@ -356,6 +357,8 @@ header.scrolled .main_menu {padding-top:15px;}
 .block_services_1 .service.type_2 .content {padding-left:152px; background:url(images/icon_services_1_2.png) no-repeat;}
 .block_services_1 .service.type_3 .content {padding-left:138px; background:url(images/icon_services_1_3.png) no-repeat;}
 .block_services_1 .service.type_4 .content {padding-left:138px; background:url(images/icon_services_1_4.png) no-repeat;}
+.block_services_1 .service.type_5 .content {padding-left:148px; background:url(images/icon_services_1_5.png) no-repeat;}
+.block_services_1 .service.type_6 .content {padding-left:148px; background:url(images/icon_services_1_6.png) no-repeat;}
 
 .block_services_1 .mCSB_horizontal.mCustomScrollBox > .mCSB_scrollTools {height:23px;}
 .block_services_1 .mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger {width:52px;}
@@ -644,7 +647,7 @@ header.scrolled .main_menu {padding-top:15px;}
 .block_project_item .share .social {padding-top:9px; float:left;}
 .block_project_item .share .social li {margin-left:3px; float:left; display:block;}
 .block_project_item .share .social li:first-child {margin-left:0px;}
-.block_project_item .likes {height:37px; line-height:35px; padding-left:19px; float:right; background:url(images/icon_like_2.png) no-repeat 0px 12px; color:#868686;}
+.block_project_item .likes {height:37px; line-height:35px; padding-left:19px; float:right;  color:#868686;}
 
 .block_project_item .description {padding-top:29px;}
 .block_project_item .description h2 {padding-bottom:17px; font-size:22px; line-height:26px;}
@@ -751,7 +754,7 @@ header.scrolled .main_menu {padding-top:15px;}
 .block_team h2 {padding-bottom:32px;}
 .block_team .teammates {position:relative;}
 .block_team .teammate {padding-bottom:4px; background:url(images/tail_teammate_1.gif) no-repeat left bottom; background-size:100% 4px;}
-.block_team .teammate .photo {position:relative;}
+.block_team .teammate .photo {position:relative; padding:5px; border: 1px solid #999;}
 .block_team .teammate .photo img {width:100%; height:auto; display:block;}
 .block_team .teammate .photo .hover {
 	position:absolute;
@@ -2128,6 +2131,8 @@ input.general_button {height:30px; line-height:30px; margin:0px; padding:0px 8px
 	.block_services_1 .service.type_2 .content {padding-left:110px; background:url(images/icon_services_1_2_940.png) no-repeat 0px 5px;}
 	.block_services_1 .service.type_3 .content {padding-left:100px; background:url(images/icon_services_1_3_940.png) no-repeat 0px 5px;}
 	.block_services_1 .service.type_4 .content {padding-left:95px; background:url(images/icon_services_1_4_940.png) no-repeat 0px 5px;}
+	.block_services_1 .service.type_5 .content {padding-left:115px; background:url(images/icon_services_1_5_940.png) no-repeat 0px 5px;}
+	.block_services_1 .service.type_6 .content {padding-left:105px; background:url(images/icon_services_1_6_940.png) no-repeat 0px 5px;}
 	
 	.block_projects_slider_1 .slides li {width:220px !important; margin-right:20px;}
 	.block_projects_slider_1 .flex-direction-nav a.flex-prev {left:-73px;}

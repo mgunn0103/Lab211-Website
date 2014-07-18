@@ -1,0 +1,24 @@
+[10-Jan-2014 20:47:23 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'majagrap_duet'@'localhost' to database 'magagrap_duet'' in /home1/majagrap/public_html/duet/install/server/installer.class.php:254
+Stack trace:
+#0 /home1/majagrap/public_html/duet/install/server/installer.class.php(254): PDO->exec('CREATE DATABASE...')
+#1 /home1/majagrap/public_html/duet/install/server/wizard.class.php(178): Installer->create_database()
+#2 /home1/majagrap/public_html/duet/install/server/wizard.class.php(39): Wizard->database()
+#3 /home1/majagrap/public_html/duet/install/index.php(32): Wizard->start()
+#4 {main}
+  thrown in /home1/majagrap/public_html/duet/install/server/installer.class.php on line 254
+[10-Jan-2014 20:47:31 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'majagrap_duet'@'localhost' to database 'magagrap_duet'' in /home1/majagrap/public_html/duet/install/server/installer.class.php:254
+Stack trace:
+#0 /home1/majagrap/public_html/duet/install/server/installer.class.php(254): PDO->exec('CREATE DATABASE...')
+#1 /home1/majagrap/public_html/duet/install/server/wizard.class.php(178): Installer->create_database()
+#2 /home1/majagrap/public_html/duet/install/server/wizard.class.php(39): Wizard->database()
+#3 /home1/majagrap/public_html/duet/install/index.php(32): Wizard->start()
+#4 {main}
+  thrown in /home1/majagrap/public_html/duet/install/server/installer.class.php on line 254
+[10-Jan-2014 20:51:23 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'majagrap_duet'@'localhost' to database 'duet_app'' in /home1/majagrap/public_html/duet/install/server/installer.class.php:254
+Stack trace:
+#0 /home1/majagrap/public_html/duet/install/server/installer.class.php(254): PDO->exec('CREATE DATABASE...')
+#1 /home1/majagrap/public_html/duet/install/server/wizard.class.php(178): Installer->create_database()
+#2 /home1/majagrap/public_html/duet/install/server/wizard.class.php(39): Wizard->database()
+#3 /home1/majagrap/public_html/duet/install/index.php(32): Wizard->start()
+#4 {main}
+  thrown in /home1/majagrap/public_html/duet/install/server/installer.class.php on line 254

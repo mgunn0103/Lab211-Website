@@ -10,6 +10,8 @@
 	transition:left .4s;
 	
 	z-index:70;
+	
+	display:none;
 }
 
 .block_settings_wrapper section {}
@@ -67,3 +69,5 @@
 @media (max-width:767px) {
 	.block_settings_wrapper {display:none;}
 }
+
+.flexslider .slides > li:first-child {display: list-item;}
